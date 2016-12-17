@@ -1,0 +1,26 @@
+# GIT
+alias commit="git rev-parse HEAD"
+alias ga="git add"
+alias gaa="git add ."
+alias gb="git branch"
+alias gbls="git branch -a"
+alias gcm="git commit -m"
+alias gcam="git commit -am"
+alias gco="git checkout"
+alias gp="git push"
+alias gpl="git pull"
+alias gplo="git pull origin"
+alias gplom="git pull origin master"
+alias gpo="git push origin"
+alias gpom="git push origin master"
+alias gpp="gpl && gpo"
+alias gpmpm="gplom && gpom"
+alias grmls="git remote -v"
+alias gs="git status"
+
+# EDIT HOST FILES
+alias h="sudo vim /private/etc/hosts"
+
+# VAGRANT QUICK START
+alias v="cd $HOME/vagrant-box && vagrant ssh"
+alias vu="cd $HOME/vagrant-box && vagrant up"
